@@ -35,4 +35,3 @@ PassengerId = np.array(test["PassengerId"]).astype(int)
 my_solution = pd.DataFrame(pred, PassengerId, columns = ["Survived"])
 
 my_solution.to_csv("my_svm_solution_one.csv", index_label = ["PassengerId"])	
-print pred
